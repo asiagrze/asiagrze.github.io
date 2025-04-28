@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="OTOAUTO" />
+    <title>Konfiguracja Zakupu</title>
+    <link rel="stylesheet" href="secondScreen.css" />
+    <script defer src="secondScreen.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Konfiguracja Zakupu</h1>
+      <form id="purchase-form">
+        <h2>Wybierz sposób finansowania:</h2>
+        <label>
+          <input type="checkbox" name="payment" value="gotówka" />
+          Gotówka
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" name="payment" value="leasing" />
+          Leasing
+        </label>
+        <br /><br />
+        <h2>Wybierz dodatkowe usługi:</h2>
+        <label>
+          <input type="checkbox" name="service" value="5000" autocomplete="off" />
+          Skórzana tapicerka (+5 000 zł)
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" name="service" value="3000" autocomplete="off" />
+          System audio premium (+3 000 zł)
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" name="service" value="7000" autocomplete="off" />
+          Pakiet sportowy (+7 000 zł)
+        </label>
+        <br /><br />
+        <label for="customer-name">Imię i nazwisko:</label>
+        <br />
+        <input type="text" id="customer-name" name="customer-name" required />
+        <br /><br />
+        <label for="pickup-location">Miejsce Odbioru:</label>
+        <br />
+        <input
+          type="text"
+          id="pickup-location"
+          name="pickup-location"
+          required
+        />
+        <br /><br />
+        <label for="pickup-date">Data odbioru:</label>
+        <br />
+        <input type="date" id="pickup-date" name="pickup-date" required />
+        <br /><br />
+        <button type="submit">Zakup</button>
+      </form>
+      <button id="back-button">Powrót do wyboru</button>
+    </div>
+    <div class="summary">
+      <h2>Podsumowanie</h2>
+      <p><strong>Wybrane auto:</strong> <span id="selected-car">Brak</span></p>
+      <p>
+        <strong>Cena całkowita:</strong> <span id="total-price">0 PLN</span>
+      </p>
+    </div>
+    <footer>
+      <p>&copy; 2025 OTOAUTO. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+  </body>
+</html>

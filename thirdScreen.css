@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  background-color: rgb(203, 107, 147);
+  margin: 0;
+  font-family: "Quantico", sans-serif;
+  color: white;
+}
+
+h1 {
+  color: pink;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  font-family: "Quantico", sans-serif;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: pink;
+}
+
+#summary {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center; /* Center the text */
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+  width: 50%; /* Center the section with a fixed width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow for better visibility */
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: black;
+  color: pink;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: rgb(80, 80, 80);
+  transform: scale(1.05);
+}
+
+#car-image {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}

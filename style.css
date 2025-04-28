@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  background-color: rgb(203, 107, 147);
+  margin: 0;
+  font-family: "Quantico", sans-serif;
+}
+
+.container {
+  margin: 20px 20px;
+}
+
+h1 {
+  color: pink;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  font-family: "Quantico", sans-serif;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+h2{
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.car-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.car-option {
+  text-align: center;
+  cursor: pointer;
+}
+
+.car-image {
+  width: 200px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.car-image:hover {
+  transform: scale(1.1);
+}
