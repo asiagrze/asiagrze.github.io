@@ -21,24 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const form = document.getElementById("purchase-form");
 
-  // Ensure only one payment method can be selected
-  const paymentInputs = form.querySelectorAll('input[name="payment"]');
-  paymentInputs.forEach((input) => {
-    input.addEventListener("change", () => {
-      if (input.checked) {
-        paymentInputs.forEach((otherInput) => {
-          if (otherInput !== input) {
-            otherInput.disabled = true;
-          }
-        });
-      } else {
-        paymentInputs.forEach((otherInput) => {
-          otherInput.disabled = false;
-        });
-      }
-    });
-  });
-
   const serviceInputs = form.querySelectorAll('input[name="service"]');
   serviceInputs.forEach((input) => {
     input.addEventListener("change", () => {
