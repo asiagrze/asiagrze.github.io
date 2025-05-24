@@ -8,7 +8,6 @@ body {
 
 .container {
   margin: 20px 20px;
-  /* margin-top: 160px; */
 }
 
 h1 {
@@ -30,7 +29,6 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
-  /* position: relative; */
   margin-bottom: 160px;
 }
 
@@ -69,13 +67,9 @@ button:hover {
 
 .summary {
   position: fixed;
-  /* top: 0; */
   bottom: 0;
-  /* margin: 0 auto; */
   background-color: white;
-  /* border: 1px solid black; */
   padding-left: 20px;
-  /* border-radius: 10px; */
   height: 150px;
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
