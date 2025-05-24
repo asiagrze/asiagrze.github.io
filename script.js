@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ${option.fuel}, ${option.power} KM, ${option.usage} km, \
       ${option.price.toLocaleString()} PLN`;
     optionDiv.innerHTML = `
-      <img src="${option.imgSrc}" alt="${option.name}" class="car-image" />
+      <img src="${option.imgSrc}" alt="zdjęcie ${option.name}" class="car-image" />
       <p>${text}</p>
     `;
     carSelection.appendChild(optionDiv);

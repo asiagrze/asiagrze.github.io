@@ -25,5 +25,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const imgElement = document.getElementById("car-image");
   imgElement.setAttribute("src", localStorage.getItem("carImgSrc") || "");
-  imgElement.setAttribute("alt", "Brak zdjęcia");
+  imgElement.setAttribute("alt", "Zdjęcie kupionego auta");
 });
