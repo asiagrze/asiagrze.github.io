@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.getItem("carName") || "Brak nazwy";
 
   const totalPriceElement = document.getElementById("total-price");
-  var totalPrice = parseInt(localStorage.getItem("carPrice") || "0");
+  let totalPrice = parseInt(localStorage.getItem("carPrice") || "0");
 
   function updateTotalPriceText() {
     totalPriceElement.textContent = totalPrice.toLocaleString("pl-PL", {
